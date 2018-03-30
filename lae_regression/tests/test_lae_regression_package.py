@@ -29,6 +29,7 @@ class TestL1FitTrivial0(unittest.TestCase):
         result = self.do_regression()
         m = result["m"]
         k = result["k"]
+        print "dimensions are", result["dimensions"]
         self.assertTrue(np.allclose(m, self.expected_m), repr((m, self.expected_m)))
         self.assertTrue(np.allclose(k, self.expected_k), repr((k, self.expected_k)))
 
