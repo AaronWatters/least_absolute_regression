@@ -53,4 +53,5 @@ In particular the
 `./presentation/Notebooks as Notes.ipynb`
 notebook introduces concepts of least absolute error regression and the
 `./presentation/1.1_Method Derivation.ipynb`
-notebook discusses the derivation of the calculation.
+notebook discusses the derivation 
+of the calculation.
